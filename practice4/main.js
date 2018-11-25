@@ -1,10 +1,9 @@
 const exec = document.getElementById("exec");
+const inputBuzzNum = document.getElementById("inputBuzzNum");
+const inputFizzNum = document.getElementById("inputFizzNum");
+const output = document.getElementById("output");
 
-exec.addEventListener(`click`, () => {
-
-    const inputBuzzNum = document.getElementById("inputBuzzNum");
-    const inputFizzNum = document.getElementById("inputFizzNum");
-    const output = document.getElementById("output");
+exec.addEventListener("click", () => {
 
     const max = 100;
     const fizzNumber = parseFloat(inputFizzNum.value);
